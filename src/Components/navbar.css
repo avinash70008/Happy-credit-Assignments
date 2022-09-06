@@ -1,0 +1,91 @@
+#navbar {
+  display: flex;
+
+  height: 80px;
+  border-bottom: 0.1px solid black;
+
+  padding-top: 0;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  /* position: relative; */
+  z-index: 1000;
+}
+#title > b {
+  padding-top: 1%;
+  margin-top: 0;
+  margin-left: 2%;
+  font-size: 30px;
+  cursor: pointer;
+}
+#content {
+  padding-top: 2%;
+  margin-left: 5%;
+}
+#title > p {
+  padding-top: 2%;
+  margin-top: 0;
+  margin-left: 5%;
+  font-size: 18px;
+  cursor: pointer;
+}
+#shop {
+  padding-top: 2%;
+  margin-top: 0;
+  margin-left: 5%;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+#listcontent {
+  display: flex;
+  width: 1000px;
+  margin-top: 0%;
+}
+#title > p:hover {
+  color: #267a9c;
+  border-bottom: 1px solid #267a9c;
+}
+#shop:hover {
+  color: #267a9c;
+  border-bottom: 1px solid #267a9c;
+}
+#btns {
+  display: flex;
+  width: 25%;
+
+  text-align: center;
+}
+#loginbtn {
+  margin-left: 25%;
+  margin-right: 10%;
+  background-color: white;
+  color: black;
+  margin-top: 5%;
+  width: 90px;
+  height: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#loginbtn:hover {
+  background-color: black;
+  color: white;
+}
+#getappbtn {
+  margin-top: 5%;
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+#getappbtn:hover {
+  background-color: white;
+  color: black;
+}
+#title {
+  display: flex;
+  width: 75%;
+}

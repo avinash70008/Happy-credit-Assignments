@@ -1,0 +1,32 @@
+.alldeals {
+  margin: 0px;
+  color: rgb(14, 14, 15);
+  display: block;
+  overflow-wrap: break-word;
+  font-size: 3.5rem;
+  line-height: 111%;
+  letter-spacing: -0.004rem;
+  font-weight: 600;
+  /* font-family: "Klarna Display"; */
+
+  z-index: 2;
+  position: absolute;
+  top: 22%;
+  left: 6%;
+}
+.alldeals2 {
+    margin-top: 29px;
+    color: rgb(14, 14, 15);
+    display: block;
+    overflow-wrap: break-word;
+    font-size: 20px;
+    line-height: 111%;
+    letter-spacing: -0.004rem;
+    font-weight: 600;
+    /* font-family: "Klarna Display"; */
+  
+    z-index: 2;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+  }
